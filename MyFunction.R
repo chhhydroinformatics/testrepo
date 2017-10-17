@@ -1,12 +1,12 @@
-myfunction <- function(x,y){
-  if(x>y){
-    print("x is greater than y")
+myfunction <- function(x,y,z){
+  if(x>y & x>z){
+    print("x is greater than y and z")
   }else{
-    print("y is greater than or equal to x")
+    print("y and/or z are greater than or equal to x")
   }
 }
 
-z <- myfunction(x=10,y=5)
+result <- myfunction(x=10,y=5,z=12)
 
 
 
